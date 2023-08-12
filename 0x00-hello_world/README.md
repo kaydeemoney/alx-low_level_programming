@@ -1,0 +1,1 @@
+hello, this is the readme for this script, im coming back to update it
