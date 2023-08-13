@@ -9,7 +9,7 @@
 int main(void)
 {
 int digit = 0;
-char printchar;
+char digitchar;
 while (digit < 10)
 {
 digitchar = char(digit);
