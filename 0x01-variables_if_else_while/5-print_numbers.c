@@ -12,11 +12,12 @@ int digit = 0;
 
 while (digit < 10)
 {
-putchar(digit + '0');  // Convert digit to character and print
+digitchar = char(digit);
+putchar(digitchar);
 digit++;
 }
 
 putchar('\n');
 
-return 0;
+ return (0);
 }
