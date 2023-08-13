@@ -1,11 +1,9 @@
-File Edit Options Buffers Tools C Help                                                                                                                                                                            
 #include <stdio.h>
 
-/**                                                                                                                                                                                                               
- * main - Entry point                                                                                                                                                                                             
- *                                                                                                                                                                                                                
- * Description: Prints single-digit numbers in base 10                                                                                                                                                            
- * Return: Always 0 (Success)                                                                                                                                                                                     
+/**
+ * main - Entry point *                                                                           
+ * Description: Prints single-digit numbers in base 10                                                                                                                                                           
+ * Return: Always 0 (Success)                                                                                                                                                                                  
  */
 int main(void)
 {
@@ -22,4 +20,3 @@ putchar('\n');
 
 return (0);
 }
-
