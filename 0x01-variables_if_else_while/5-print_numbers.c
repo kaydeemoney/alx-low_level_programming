@@ -12,7 +12,7 @@ int digit = 0;
 char digitchar;
 while (digit < 10)
 {
-digitchar = char(digit);
+digitchar = digit + '0';
 putchar(digitchar);
 digit++;
 }
