@@ -5,7 +5,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: assign a random number to the variable n each time it is executed. 
+ * Description: assign a random number
+ * to the variable n each time it is executed.
  * Return: Always 0 (Success)
  */
 
@@ -32,5 +33,5 @@ else
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 }
 
-return 0;
+ return (0);
 }
