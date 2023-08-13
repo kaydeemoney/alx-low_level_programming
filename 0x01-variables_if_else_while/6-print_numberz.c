@@ -1,22 +1,21 @@
-#include <stdio.h>
+c#include <stdio.h>
 
 /**
- * main - Entry point *                                                                           
- * Description: Prints single-digit numbers in base 10                                                                                                                                                           
- * Return: Always 0 (Success)                                                                                                                                                                                  
+ * main - Entry point
+ *
+ * Description: Prints single-digit numbers in base 10 followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int digit = 0;
-char digitchar;
-while (digit < 10)
-{
-digitchar = digit + '0';
-putchar(digitchar);
-digit++;
-}
+char str[] = "0123456789\n";
+int index = 0;
 
-putchar('\n');
+while (index < sizeof(str) - 1)
+{
+putchar(str[index]);
+index++;
+}
 
 return (0);
 }
