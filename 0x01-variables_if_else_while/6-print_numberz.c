@@ -9,7 +9,7 @@
 int main(void)
 {
 char str[] = "0123456789\n";
-int index = 0;
+size_t index = 0;
 
 while (index < sizeof(str) - 1)
 {
