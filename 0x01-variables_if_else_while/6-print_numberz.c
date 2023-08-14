@@ -12,7 +12,6 @@ int digit = 0;
 while (digit <= 9) {
 int ascii_code = digit + 48;
 putchar(ascii_code);
- 
 digit++;
 }
 putchar(10);
