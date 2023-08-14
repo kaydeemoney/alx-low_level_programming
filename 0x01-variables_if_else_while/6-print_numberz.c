@@ -10,7 +10,6 @@ int main(void) {
 int digit = 0;
 
 while (digit <= 9) {
-// Convert the digit to its ASCII code and print
 int ascii_code = digit + 48;
 putchar(ascii_code);
 
