@@ -13,8 +13,7 @@ while (digit <= 9) {
 int ascii_code = digit + 48;
 putchar(ascii_code);
 
-// Print newline character after each digit
-putchar(10); // ASCII code for '\n'
+putchar(10); 
 digit++;
 }
 
