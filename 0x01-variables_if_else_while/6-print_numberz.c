@@ -6,15 +6,17 @@
  * Description: Prints single-digit numbers in base 10 followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-char str[] = "0123456789\n";
-size_t index = 0;
+int main(void) {
+int digit = 0;
 
-while (index < sizeof(str) - 1)
-{
-putchar(str[index]);
-index++;
+while (digit <= 9) {
+// Convert the digit to its ASCII code and print
+int ascii_code = digit + 48; // '0' is ASCII code 48
+putchar(ascii_code);
+
+// Print newline character after each digit
+putchar(10); // ASCII code for '\n'
+digit++;
 }
 
 return (0);
