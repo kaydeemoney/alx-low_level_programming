@@ -18,5 +18,5 @@ for (i = 0; i < 6; i++)
 putchar(i + 'a');
 }
 putchar('\n');
-    return (0);
+return (0);
 }
