@@ -9,7 +9,7 @@ int main(void) {
 char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 int num_of_alphabet = 25;
 
-while (int num_of_alphabet > 0) 
+while (num_of_alphabet > 0) 
 {
 putchar(alphabet[num_of_alphabet - 1]);
 num_of_alphabet = num_of_alphabet - 1;

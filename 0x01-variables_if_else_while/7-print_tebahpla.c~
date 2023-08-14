@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 int main(void) {
-char alphabet = "abcdefghijklmnopqrstuvwxyz";
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 int num_of_alphabet = 25;
 
 while (int num_of_alphabet > 0) 
