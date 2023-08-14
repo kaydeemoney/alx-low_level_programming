@@ -11,7 +11,7 @@ int digit = 0;
 
 while (digit <= 9) {
 // Convert the digit to its ASCII code and print
-int ascii_code = digit + 48; // '0' is ASCII code 48
+int ascii_code = digit + 48;
 putchar(ascii_code);
 
 // Print newline character after each digit
