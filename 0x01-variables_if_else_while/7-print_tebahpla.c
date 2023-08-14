@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -7,20 +6,14 @@
  * Return: Always 0 (Success)
  */
 int main(void) {
-char alphe;
+char alphabet = "abcdefghijklmnopqrstuvwxyz";
+int num_of_alphabet = 25;
 
-
-alphe = "abcdefghijklmnopqrstuvwxyz";
-int num_of_alphe = 24
-
-while (int num_of_alphe < 0) 
-{putchar(alphe[int num_of_alphe]);
-int num_of_alphe = int num_of_alphe - 1;
+while (int num_of_alphabet > 0) 
+{
+putchar(alphabet[num_of_alphabet - 1]);
+num_of_alphabet = num_of_alphabet - 1;
 }
-
 putchar(10);
-
-
-
 return (0);
 }
