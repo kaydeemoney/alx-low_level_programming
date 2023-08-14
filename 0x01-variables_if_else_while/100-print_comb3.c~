@@ -4,8 +4,8 @@
  * main - Entry point
  *
  * Description: Prints all possible different combinations of two digits.
- *              Numbers must be separated by ", " and in ascending order.
- *              The two digits must be different, and 01 and 10 are considered the same combination.
+ * Numbers must be separated by ", " and in ascending order.
+ *The two digits must be different, and 01 and 10 are considered the same combination.
  * Return: Always 0 (Success)
  */
 int main(void)
