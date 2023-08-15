@@ -1,7 +1,10 @@
 #include <stdio.h>
-/**
- * print_alphabet - Prints the lowercase alphabet followed by a new line
+/**                                                                                                                                                                                                               
+ * print_alphabet - Prints the lowercase alphabet followed by a new line                                                                                                                                          
  */
+ 
+void print_alphabet(void);
+
 void print_alphabet(void)
 {
 char letter = 'a';
@@ -12,14 +15,17 @@ letter++;
 }
 putchar('\n');
 }
-/**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
+/**                                                                                                                                                                                                               
+ * main - Entry point of the program                                                                                                                                                                              
+ *                                                                                                                                                                                                                
+ * Return: Always 0 (Success)                                                                                                                                                                                     
  */
 
 int main(void)
 {
 print_alphabet();
- return (0);
+return (0);
 }
+
+
+
