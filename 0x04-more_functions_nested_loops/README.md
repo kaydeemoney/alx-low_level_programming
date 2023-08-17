@@ -1,0 +1,1 @@
+okay, this is about more nesterd loops. ill update all 
