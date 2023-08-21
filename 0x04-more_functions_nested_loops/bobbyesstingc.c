@@ -1,0 +1,26 @@
+#include "main.h"
+
+#include <stdio.h>
+
+
+int main(void){
+int rowsey;
+ static int data=10;
+ int columney;
+static  int odun;
+ int product;
+for (rowsey=1; rowsey<=12; rowsey++){
+
+	for (columney=1; columney<=12; columney++){
+	
+	product=columney*rowsey;
+	
+	printf("%d X %d equals to %d		", columney, rowsey, product );
+	
+	
+	}
+
+	putchar('\n');
+}
+ 
+}
