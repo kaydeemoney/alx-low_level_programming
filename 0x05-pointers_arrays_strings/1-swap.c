@@ -10,12 +10,10 @@
  */
 
 
-int *a=98;
-int *b=42;
-
 void swap_int(int *a, int *b)
 {
-
+int *a=98;
+int *b=42;
 printf("a=%d, b=%d\n", *a, *b);
   
 int *c=0;
