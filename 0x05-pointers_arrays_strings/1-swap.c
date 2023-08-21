@@ -19,7 +19,7 @@ void swap_int(int a, int b)
 {
 a=98;
 b=42;
-printf("a=%d, b=%d\n", a, b);
+printf("%d, %d\n", a, b);
 
 
 
@@ -29,7 +29,7 @@ b=c;
 a =d;
 
 
-printf("a=%d, b=%d\n", a, b);
+printf("%d, %d\n", a, b);
 }
 
 
