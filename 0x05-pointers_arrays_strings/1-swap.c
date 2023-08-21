@@ -28,7 +28,6 @@ b=c;
 a =d;
 
 
-printf("%d, %d\n", a, b);
 }
 
 
