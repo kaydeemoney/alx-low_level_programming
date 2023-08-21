@@ -11,16 +11,3 @@
 void reset_to_98(int *ptr){
 *ptr=98;
 }
-int main(void)
-{
-    int n;
-    int ptr;
-    n = 402;
-    *ptr=&n;
-    printf("n=%d\n", n);
-	printf("pointer=%p\n", ptr);
-    reset_to_98(ptr);	
-    printf("n=%d\n", n);
-    return (0);
-}
-
