@@ -19,8 +19,7 @@ int *d=0;
 
 *c = *a;
 *d = *b;
-
-int *b=int *c;
-int *a =int *d;
+*b=*c;
+*a =*d;
 
 }
