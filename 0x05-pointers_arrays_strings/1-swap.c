@@ -18,8 +18,8 @@ void swap_int(int *a, int *b)
 *b=42;
 printf("a=%d, b=%d\n", *a, *b);
   
-int *c=0;
-int *d=0;
+int *c;
+int *d;
 
 *c = *a;
 *d = *b;
