@@ -7,7 +7,7 @@
  * @b:number to be exchanged or swap with the a
  */
 
-void swap_int(int *a, int *b)
+void swap_int(int a, int b)
 {
 	int c;
 
