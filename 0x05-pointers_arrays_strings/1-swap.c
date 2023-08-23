@@ -2,32 +2,16 @@
 #include <stdio.h>
 
 /**
- 
- * swap_int - function to swap the value of two variables 
- * @a: first pointer variable
- * @b: second pointer variable
- * @c: swap location of first pointer variable
- * @d: swap location of second pointer variable
+ * swap_int- it interchanges two number positions
+ * @a:first number to use
+ * @b:number to be exchanged or swap with the a
  */
 
-
-int a;
-int b;
-int c;
-int d;
-void swap_int(int a, int b)
+void swap_int(int *a, int *b)
 {
-a=98;
-b=42;
+	int c;
 
-
-
-c = a;
-d = b;
-
-a =d;
-b=c;
-
+	c = *a;
+	*a = *b;
+	*b = c;
 }
-
-
