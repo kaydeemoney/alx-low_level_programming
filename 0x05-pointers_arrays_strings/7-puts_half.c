@@ -22,7 +22,7 @@ void puts_half(char *str)
 	{
 		for (c = b / 2; str[c] != '\0'; c++)
 		{
-			_butchar(str[c]);
+			_putchar(str[c]);
 		}
 	}
 
@@ -30,7 +30,7 @@ void puts_half(char *str)
 	{
 		for (n = (b - 1) / 2; n < b - 1; n++)
 		{
-			_butchar(str[n + 1]);
+			_putchar(str[n + 1]);
 		}
 	}
 	_butchar('\n');
