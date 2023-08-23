@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- * swap_int- swaps two number positions
- * @a:first number
- * @b:number to be swapped with the first
+ * swap_int- it interchanges two number positions
+ * @a:first number to use
+ * @b:number to be exchanged or swap with the a
  */
 
 void swap_int(int *a, int *b)
 {
-	int p;
+	int c;
 
-	p = *a;
+	c = *a;
 	*a = *b;
-	*b = p;
+	*b = c;
 }
