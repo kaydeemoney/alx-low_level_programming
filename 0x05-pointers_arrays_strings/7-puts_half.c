@@ -9,7 +9,7 @@
  * @str:string parameter
  */
 
-void buts_half(char *str)
+void puts_half(char *str)
 {
 	int b, n, c;
 	b = 0;
