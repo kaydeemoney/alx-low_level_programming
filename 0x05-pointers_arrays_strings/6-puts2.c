@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts_half - function that would
+ * puts2 - function that would
  * print the second half of a list
  * as well as d last number if odd
  * @str:string parameter
