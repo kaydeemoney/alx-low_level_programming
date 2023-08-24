@@ -6,12 +6,12 @@
  * @src: source string
  * @n: number of bytes of str to concatenate
  *
- * Return: pointer to the resulting string dest
+ * Return: a pointer to the resulting string dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int a, b;
+	int a, j;
+
 	a = 0;
 	b = 0;
 
@@ -26,5 +26,6 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	dest[a] = '\0';
+
 	return (dest);
 }
