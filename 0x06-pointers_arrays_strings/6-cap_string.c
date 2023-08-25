@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * cap_string - capitalize all words of a string
+ * cap_string - capitalize every word of a string
  * @s: string to modify
  *
  * Return: the resulting string
  */
+
 char *cap_string(char *s)
 {
 	int a, b;
