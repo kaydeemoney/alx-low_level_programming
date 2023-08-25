@@ -11,9 +11,6 @@ char *leet(char *s)
 
 	char *a = "aAeEoOtTlL";
 	char *b = "4433007711";
-
-	
-
 	for (x = 0; s[x] != '\0'; x++)
 	{
 		for (y = 0; y < 10; y++)
