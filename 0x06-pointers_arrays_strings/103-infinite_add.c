@@ -1,15 +1,11 @@
 #include "main.h"
+
 /**
- * rev_string - reverse array
- * @n: integer params
+ * rev_string - revers array
+ * @n: integer parameteres
  * Return: 0
- * infinite_add - add 2 numbers together
- * @n1: text representation of 1st number to add
- * @n2: text representation of 2nd number to add
- * @r: pointer to buffer
- * @size_r: buffer size
- * Return: pointer to calling function
  */
+
 void rev_string(char *n)
 {
 	int i = 0;
@@ -30,6 +26,14 @@ void rev_string(char *n)
 	}
 }
 
+/**
+ * infinite_add - adds 2 number togethers
+ * @n1: text representations of 1st numbers to add
+ * @n2: text representation of 2nd number to add
+ * @r: pointer to buffer
+ * @size_r: buffer sizes
+ * Return: pointer to calling function
+ */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
