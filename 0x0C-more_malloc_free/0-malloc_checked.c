@@ -2,16 +2,17 @@
 #include "main.h"
 
 /**
- * *string_nconcat - concatenating n byte of one string to another
- * @s1: string to append to
- * @s2: string that is to concatenate from
- * @n: number of bytes from s2 to concatenate to s1
+ * *string_nconcat - concatenate n byte of a string to another 
+ * @s1: string to be append to
+ * @s2: string to concatenate from
+ * @n: number of byte from s2 to concatenate to s1
+ *
  * Return: pointer to the resulting string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s;
-	unsigned int a = 0, j = 0, len1 = 0, len2 = 0;
+	unsigned int x = 0, j = 0, len1 = 0, len2 = 0;
 
 	while (s1 && s1[len1])
 		len1++;
@@ -26,18 +27,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!s)
 		return (NULL);
 
-	while (a < len1)
+	while (x < len1)
 	{
-		s[a] = s1[a];
-		a++;
+		s[x] = s1[x];
+		x++;
 	}
-	while (n < len2 && a < (len1 + n))
-		s[a++] = s2[j++];
 
-	while (n >= len2 && a < (len1 + len2))
-		s[a++] = s2[j++];
+	while (n < len2 && x < (len1 + n))
+		s[x++] = s2[j++];
 
-	s[a] = '\0';
+	while (n >= len2 && x < (len1 + len2))
+		s[x++] = s2[j++];
+
+	s[x] = '\0';
 
 	return (s);
 }
