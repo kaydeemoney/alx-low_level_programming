@@ -2,22 +2,22 @@
 #include <stdio.h>
 
 /**
- * *_strpbrk - searches a string for any of a set of bytes
- * @s: the string to search
- * @accept: string thats containing the bytes to look for
+ * *_strpbrk - searche a string for any of a set of byte
+ * @s: string to search
+ * @accept: string containing the bytes to look for
  *
  * Return: pointer to the byte in s that matches one of the bytes in accept
  * or NULL if no such byte is found
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int a, b;
+	int i, j;
 
-	for (a = 0; *s != '\0'; i++)
+	for (i = 0; *s != '\0'; i++)
 	{
-		for (b = 0; accept[b] != '\0'; b++)
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (*s == accept[b])
+			if (*s == accept[j])
 			{
 				return (s);
 			}
