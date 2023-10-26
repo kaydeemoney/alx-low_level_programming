@@ -1,6 +1,8 @@
+
 #include "main.h"
 
 /**
+ * kaydee
  * factorial - return the factorial of a num
  * @n: num to return the factorial from
  *
