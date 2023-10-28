@@ -1,0 +1,1 @@
+this is my readme file on static library, coming back to update
