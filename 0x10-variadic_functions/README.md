@@ -1,0 +1,1 @@
+hello welcome to my readme, for standard argument in c
