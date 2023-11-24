@@ -1,0 +1,1 @@
+hello this is my readme on bitwise AND OR NOT XOR AND co
